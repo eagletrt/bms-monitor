@@ -1611,7 +1611,7 @@
     (uuid 235c1d8a-b374-44b0-8bd7-dd11bd55d1e8)
     (property "Reference" "C1" (id 0) (at 25.4 90.17 90))
     (property "Value" "10nF 100V" (id 1) (at 22.86 86.36 90))
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 23.1648 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 23.1648 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 24.13 92.71 0)
@@ -2102,7 +2102,7 @@
     (uuid b2e9a2c9-3982-4066-8434-8e854679b392)
     (property "Reference" "C2" (id 0) (at 30.48 90.17 90))
     (property "Value" "10nF 100V" (id 1) (at 27.94 86.36 90))
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 28.2448 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 28.2448 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.21 92.71 0)
@@ -2612,10 +2612,10 @@
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/235c1d8a-b374-44b0-8bd7-dd11bd55d1e8"
-      (reference "C1") (unit 1) (value "10nF 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C1") (unit 1) (value "10nF 100V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/b2e9a2c9-3982-4066-8434-8e854679b392"
-      (reference "C2") (unit 1) (value "10nF 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C2") (unit 1) (value "10nF 100V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/0aeb97a3-f6b7-49fe-aa2e-29d958e879c6"
       (reference "C4") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2639,7 +2639,7 @@
       (reference "C10") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/dbadce1e-35f8-4ab9-9f0f-2ed1e1a27cb5"
-      (reference "C11") (unit 1) (value "100nF 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C11") (unit 1) (value "100nF 100V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/9735a3ad-4a67-4647-b2a9-c851a6c60683"
       (reference "C12") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2693,7 +2693,7 @@
       (reference "C30") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/dbadce1e-35f8-4ab9-9f0f-2ed1e1a27cb5"
-      (reference "C31") (unit 1) (value "100nF 100V") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C31") (unit 1) (value "100nF 100V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/9735a3ad-4a67-4647-b2a9-c851a6c60683"
       (reference "C32") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2789,43 +2789,43 @@
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/78dac5f8-3eef-470d-9920-d491bb7093da"
-      (reference "F13") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F13") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/db5a81ce-ee7b-4d38-b7e3-1260b5a07e84"
-      (reference "F14") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F14") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/c5a48528-20d2-4fdb-80ef-51762d9791d9"
-      (reference "F15") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F15") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/8031aaa6-f559-4a10-8fb1-e10f0ffdbce2"
-      (reference "F16") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F16") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/ed9b19a3-f1ed-4315-b2e3-6e54c4724f8b"
-      (reference "F17") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F17") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/4d62d08b-5ade-4597-aab3-948de11a0612"
-      (reference "F18") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F18") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/2c64b788-34c7-4be6-92cd-2b6dbc86dff6"
-      (reference "F19") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F19") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/834b56d6-74dd-4c18-a175-2520f2416100"
-      (reference "F20") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F20") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/ea13aa80-5145-412b-b2a5-3555af236db9"
-      (reference "F21") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F21") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/a4a306a6-a9c0-4cd7-8e95-b1c860816144"
-      (reference "F22") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F22") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/cf4d1727-cc82-44dd-a7fd-7f6527c96b99"
-      (reference "F23") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F23") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/0d583eb6-cf3a-4e29-8aae-e60007aadc82"
-      (reference "F24") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F24") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/80b90454-4ae5-400e-b711-a560905f46cf"
-      (reference "F25") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "F25") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/d52ce370-a6d3-4500-9b9f-9dc31899eb41"
       (reference "FB1") (unit 1) (value "600R") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2837,55 +2837,55 @@
       (reference "FL1") (unit 1) (value "ACT45B-101-2P-TL003") (footprint "Eagle_Main:ACT45B-xxx-2P-TL003")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/2c64b788-34c7-4be6-92cd-2b6dbc86dff6"
-      (reference "Fa0") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa0") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/80b90454-4ae5-400e-b711-a560905f46cf"
-      (reference "Fa1") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa1") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/4d62d08b-5ade-4597-aab3-948de11a0612"
-      (reference "Fa2") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa2") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/0d583eb6-cf3a-4e29-8aae-e60007aadc82"
-      (reference "Fa3") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa3") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/ed9b19a3-f1ed-4315-b2e3-6e54c4724f8b"
-      (reference "Fa4") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa4") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/cf4d1727-cc82-44dd-a7fd-7f6527c96b99"
-      (reference "Fa5") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa5") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/8031aaa6-f559-4a10-8fb1-e10f0ffdbce2"
-      (reference "Fa6") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa6") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/a4a306a6-a9c0-4cd7-8e95-b1c860816144"
-      (reference "Fa7") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa7") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/c5a48528-20d2-4fdb-80ef-51762d9791d9"
-      (reference "Fa8") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa8") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/ea13aa80-5145-412b-b2a5-3555af236db9"
-      (reference "Fa9") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa9") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/db5a81ce-ee7b-4d38-b7e3-1260b5a07e84"
-      (reference "Fa10") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa10") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/834b56d6-74dd-4c18-a175-2520f2416100"
-      (reference "Fa11") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa11") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/78dac5f8-3eef-470d-9920-d491bb7093da"
-      (reference "Fa12") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa12") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/a4cecc75-f9be-42c1-be43-4e37d8de839f"
-      (reference "Fa13") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa13") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/b1c87058-c788-40eb-86fb-c1d80eb1b1f2"
-      (reference "Fa14") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fa14") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/a4cecc75-f9be-42c1-be43-4e37d8de839f"
-      (reference "Fb3") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fb3") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/b1c87058-c788-40eb-86fb-c1d80eb1b1f2"
-      (reference "Fb14") (unit 1) (value "2A") (footprint "Fuse:Fuse_0805_2012Metric")
+      (reference "Fb14") (unit 1) (value "2A") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/d5332ab4-cf6d-42c9-a037-076a583af0dc"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "Eagle_Main:MountingHole_3.2mm_M3_ISO14580")
@@ -3071,7 +3071,7 @@
       (reference "R2") (unit 1) (value "47R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/605a2607-f114-4716-8ab7-9e4c8d99b4bf"
-      (reference "R3") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R3") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/4f83353d-2297-464d-b108-3f07e3544efb"
       (reference "R4") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -3110,7 +3110,7 @@
       (reference "R15") (unit 1) (value "39k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/605a2607-f114-4716-8ab7-9e4c8d99b4bf"
-      (reference "R16") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R16") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/4f83353d-2297-464d-b108-3f07e3544efb"
       (reference "R17") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
