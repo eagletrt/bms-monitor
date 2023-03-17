@@ -3052,6 +3052,18 @@
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/5a61a382-a6ff-44f1-8cce-7041d6924988"
       (reference "JP12") (unit 1) (value "ISOMD") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
+    (path "/f6454760-ef00-4400-bda1-2718321d2678/a024e7c4-d6d1-4ae1-9d06-fd6b2974bad3"
+      (reference "JP13") (unit 1) (value "IBIAS") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/f6454760-ef00-4400-bda1-2718321d2678/1a20d3c2-6252-4c67-9649-e45996e94667"
+      (reference "JP14") (unit 1) (value "ICMP") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/a024e7c4-d6d1-4ae1-9d06-fd6b2974bad3"
+      (reference "JP15") (unit 1) (value "IBIAS") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/1a20d3c2-6252-4c67-9649-e45996e94667"
+      (reference "JP16") (unit 1) (value "ICMP") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/8a828db2-1b66-48f0-a2dd-afe0dc74fdbb"
       (reference "L2") (unit 1) (value "33uH") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
