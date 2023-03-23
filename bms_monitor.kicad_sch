@@ -3315,6 +3315,9 @@
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/fe2eec61-f177-47fa-abcc-bb0f60ff5fdf"
       (reference "RN16") (unit 1) (value "100R") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
+    (path "/f6454760-ef00-4400-bda1-2718321d2678/d44403df-7568-4357-81dc-873db4f8c794"
+      (reference "RN17") (unit 1) (value "10K") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
+    )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/6464ee29-7fca-41e8-a48b-6b04c3d577b4"
       (reference "RN18") (unit 1) (value "100R") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
@@ -3326,6 +3329,9 @@
     )
     (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/1bc1f276-3056-4157-a3fc-0abc02321fe8"
       (reference "RN21") (unit 1) (value "100R") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
+    )
+    (path "/a96c98cb-c20f-4c14-b2ea-6cd8b063661e/d44403df-7568-4357-81dc-873db4f8c794"
+      (reference "RN22") (unit 1) (value "10K") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/f6454760-ef00-4400-bda1-2718321d2678/3f5441b0-164b-49d4-b993-a2a685ffc038"
       (reference "Rda0") (unit 1) (value "10R") (footprint "Resistor_SMD:R_2512_6332Metric")
