@@ -56,24 +56,11 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|100000000|117443000|7b2e4dea-9217-4ba4-af3d-ae0ed2cdbc08|aa9f7d4b-6087-4daa-adf0-1dcc3b465916",
         "courtyards_overlap|135520001|63850001|1f8d302d-4ecb-4744-9c4e-ebc9e0daaf0f|77f5b7f4-752e-45cf-9bbc-813ce7b5ea71",
         "courtyards_overlap|135520001|77650001|37c9ee6a-fe9b-49b9-b9f4-c6726300d82e|4a2b6221-ac54-4116-b3eb-35a31afe3bb9",
         "courtyards_overlap|138100001|106944801|19bbdda1-f565-4859-9f10-fbe00616e394|dd908b89-ef95-49dc-95ea-9d59fa39df4a",
         "courtyards_overlap|139132044|93202001|ab3d3f13-a0d4-44df-84a8-2f60b2c5bacc|c86d18ea-0538-48c0-8f7c-1f15e44d872e",
-        "courtyards_overlap|150650001|83800001|7178d0d4-f3d7-4efc-8bf9-7de5e601b330|faddae99-0de3-4c2f-af28-b5869af44996",
-        "silk_over_copper|195000000|106430000|3a6e20f3-79f5-4e94-bae3-ad5830431b83|d462a65e-dd26-475d-86ea-cfb113c93094",
-        "silk_over_copper|195000000|107270000|3a6e20f3-79f5-4e94-bae3-ad5830431b83|67795853-b040-4bed-8c4a-5184004bac6a",
-        "silk_over_copper|195000000|125930000|66c72799-0767-4ed2-ae1c-b2c6b56bdefd|525e1c62-f242-4733-a29e-bcc963200b02",
-        "silk_over_copper|195000000|63270000|3f9458c9-cddf-4582-b298-327de06c7d5d|a3a0ae4e-5181-43be-95a1-7fda7a8da0f1",
-        "silk_over_copper|195000000|84430000|c27c572a-6252-4f1a-901f-0050e59f27a3|ed688819-4a81-4a4a-9bd9-f20f836a462f",
-        "silk_over_copper|195000000|85270000|c27c572a-6252-4f1a-901f-0050e59f27a3|7cc40a16-d8da-449b-8f19-da35733cacb0",
-        "silk_over_copper|80000000|103830000|b7527f3b-ec62-4e82-ac7c-2fcbee80d7da|153c0a10-062d-4ded-9be1-57cd179d0ed8",
-        "silk_over_copper|80000000|104670000|b7527f3b-ec62-4e82-ac7c-2fcbee80d7da|b893aa31-4caa-4c4d-924c-a1bf7e42f631",
-        "silk_over_copper|80000000|125830000|0c227ace-d048-4441-858b-99205ab235bf|7d6fce5f-88be-447d-9d2c-1469ca49bf31",
-        "silk_over_copper|80000000|63170000|1ac136da-794e-4ee5-9f0c-ac4bb41d3d75|86635748-0c77-404f-811c-dfc32c5ee838",
-        "silk_over_copper|80000000|81830000|0055ae98-358b-472a-89d2-7b32b10cedbb|5d2de7c9-bb57-4423-a5fa-4f88937a3fda",
-        "silk_over_copper|80000000|82670000|0055ae98-358b-472a-89d2-7b32b10cedbb|601cf5fe-3c7d-4961-bc0f-3e68438d307c"
+        "courtyards_overlap|150650001|83800001|7178d0d4-f3d7-4efc-8bf9-7de5e601b330|faddae99-0de3-4c2f-af28-b5869af44996"
       ],
       "meta": {
         "version": 2
@@ -142,7 +129,8 @@
         0.15,
         0.25,
         0.35,
-        0.4
+        0.4,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -412,6 +400,7 @@
         "nets": [
           "/StackA/PSU_INPUT",
           "/StackA/VDD",
+          "/StackB/PSU_INPUT",
           "/StackB/VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
